@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Stepper from './components/Stepper'; 
 import StepperControl from './components/StepperControl';
 import './App.css';
+import { StepperContext } from './context/stepperContext';
 import PersonalInfo from './components/steps/PersonalInfo';
 import Final from './components/steps/Final';
-import StepperContext from '/context/StepperContext';
+
 import SetCredentials from './components/steps/SetCredentials';
 
 function App() {
