@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: #000;
+}
+
+.centered-container{
+  @apply w-[90%] h-[80vh] rounded-2xl py-10 px-15;
+  background-color: #272727;
+}
+.labelText{
+  @apply font-medium h-6 mt-3 text-gray-400 text-[14px] tracking-wider leading-8;
+}
+
+.inputBox{
+  @apply my-2 p-1 flex border border-gray-500 rounded ;
+}
+
+.inputField{
+  @apply p-1 px-2 appearance-none outline-none w-full text-gray-400;
+}
