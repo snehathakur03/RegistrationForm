@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Stepper from './components/stepper'; 
+import Stepper from './components/Stepper'; 
 import StepperControl from './components/StepperControl';
 import './App.css';
 import PersonalInfo from './components/steps/PersonalInfo';
